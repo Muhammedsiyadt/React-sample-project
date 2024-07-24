@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
+  
+  body {
+    background: url('../../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-side img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border-radius: 8px;
+    backdrop-filter: blur(10px); /* Glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Glass effect for Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Border for the glass effect */
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .form-img {
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover; /* Ensure the image fits within its container */
+    /* Center the image within the form container */
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .MuiButton-root {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
