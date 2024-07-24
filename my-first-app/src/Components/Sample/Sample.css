@@ -1,0 +1,42 @@
+.list-item{
+    padding: 10px;
+}
+
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: #333; 
+}
+
+.left{
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+}
+
+.right span {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.list-label{
+    padding: 10px 10px 10px 0px;
+}
+
+.list-label span{
+    background: #7eda29;
+    color: white;
+    padding: 2px 5px;
+    margin: 3px;
+    border-radius: 2px;
+}
+
+.list-detail{
+    padding-bottom: 10px;
+}
